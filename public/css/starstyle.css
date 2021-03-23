@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background: #ffe400; */
+background: #00917c;
+}
+.rating-css {
+  height: 3%;
+  width: 12%;
+  background: #93329e;
+  border: 4px solid #838383;
+  padding: 3px;
+}
+.rating-css div {
+  color: #ffe400;
+  font-size: 30px;
+
+  /* font-weight: 800; */
+  text-align: center;
+  /* padding: 20px 0; */
+}
+/* removing the input boxes */
+.rating-css input {
+  display: none;
+}
+/* star size */
+.rating-css input + label {
+  /* font-size: 60px; */
+font-size: 50%;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  /* color: #838383; */
+color: #00917c;
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}

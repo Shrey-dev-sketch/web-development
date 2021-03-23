@@ -1,0 +1,332 @@
+body{
+  font-family: 'Montserrat';
+  background-color: #333533;
+
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+#title{
+  background-color: #29363e;
+  color: #f8f9fa;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.readmore{
+color: black;
+font-size: 1.2rem;
+font-family: "Montserrat-Light";
+
+}
+h1
+{
+  line-height: 1.5;
+color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 4rem;
+  text-align: center;
+}
+.navbar{
+  padding-bottom:  4.5rem;
+}
+h3{
+  font-family: 'Montserrat-Bold';
+  font-size: 2rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.Download-button{
+margin:5% 3% 5% 0
+}
+.title-img{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 40%;
+}
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+}
+.feature-box{
+  padding:5%;
+  text-align: center;
+}
+#testimonials{
+
+  background-color: #333533;
+  color: #fff;
+  text-align: center;
+}
+.testimonial-img{
+  width:20%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding:3% 8%;
+}
+#press{
+  background-color: #29363e;
+text-align: center;
+padding-bottom: 5%
+}
+.press-img{
+  width:15%;
+  margin:20px 20px 20px 50px;
+}
+#pricing{
+  background-color:  #1c262b;
+  padding:100px;
+  text-align: center;
+}
+
+.column-dog{
+  padding: 3% 5%;
+  font-size: 1rem;
+}
+@media(max-width: 992px)  {
+  .title-img{
+    transform: rotate(0);
+    position: static;
+
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color: #29363e;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5% 10%;
+}
+
+ /*confession div */
+
+.box-1{
+
+  padding-left: 55px;
+
+
+  padding-right: 55px;
+
+
+  padding-top: 80px;
+
+
+  padding-bottom: 30px;
+
+
+  padding-bottom: 32px;
+
+
+
+  margin-bottom: 20px;
+
+  margin-bottom: 25px;
+
+
+}
+.confession-f{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: block;
+          margin-top: 0em;
+    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+.rating-css {
+  height: 100px;
+  width: 300px;
+
+
+  padding: 3px;
+}
+.rating-css div {
+  color: #ffe400;
+  font-size: 30px;
+
+  /* font-weight: 800; */
+  text-align: center;
+  /* padding: 20px 0; */
+}
+/* removing the input boxes */
+.rating-css input {
+  display: none;
+}
+/* star size */
+.rating-css input + label {
+  /* font-size: 60px; */
+font-size: 50%;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  /* color: #838383; */
+color: #00917c;
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+.column2{
+  padding-top:  6% ;
+  padding-left%;
+}
+
+
+
+.search-box{
+      position:absolute;
+
+      transform:translate(-50%,-50%);
+      background:#fff;
+      height:40px;
+      border-radius:40px;
+
+
+}
+.search-box:hover > .txt{
+      width:300px;
+      padding:0 6px;
+    transition: all 1s;
+
+}
+.search-box:hover > .btn{
+      background:#07051a;
+
+}
+.btn-1{
+      color:#e84118;
+      float:right;
+      width:40px;
+      height:40px;
+      border-radius:50%;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      transition:0.4s;
+      cursor:pointer;
+
+
+}
+.btn-1 > i{
+      font-size:30px;
+      color:#000;
+
+}
+.sr-box{
+  padding-left: 15%;
+}
+.txt{
+      border:none;
+      background:none;
+      outline:none;
+      float:left;
+      padding:0;
+      color:#333;
+      font-size:16px;
+      transition:0.4s;
+      line-height:40px;
+      width:0px;
+      font-weight:bold;
+}
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
